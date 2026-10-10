@@ -1,0 +1,150 @@
+/* =====================================================================
+   G-Mirror Light Theme  (QSS — Qt Style Sheet)
+   ===================================================================== */
+
+QWidget {
+    background-color: #f5f7fa;
+    color: #1a1a2e;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 13px;
+}
+
+QMainWindow {
+    background-color: #edf0f5;
+}
+
+#titleBar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dde3ed;
+}
+
+#titleBar QPushButton {
+    padding: 4px;
+    border-radius: 6px;
+}
+
+#statusPanel {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid #dde3ed;
+}
+
+#videoContainer {
+    background-color: #1a1a2e;
+    border-radius: 8px;
+}
+
+.MetricCard {
+    background-color: #e8f4f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    border: 1px solid #b2d8cc;
+}
+
+.MetricValue {
+    color: #0f7a5e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.MetricLabel {
+    color: #668899;
+    font-size: 10px;
+}
+
+QPushButton {
+    background-color: #e8f4f0;
+    color: #1a1a2e;
+    border: 1px solid #b2d8cc;
+    border-radius: 6px;
+    padding: 8px 18px;
+}
+
+QPushButton:hover {
+    background-color: #c8e8de;
+}
+
+QPushButton:pressed {
+    background-color: #a8d8cc;
+}
+
+QPushButton#startButton {
+    background-color: #0f7a5e;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+}
+
+QPushButton#startButton:hover {
+    background-color: #0d6a50;
+}
+
+QPushButton#stopButton {
+    background-color: #e94560;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+}
+
+QLabel#titleLabel {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0f7a5e;
+    letter-spacing: 2px;
+}
+
+QLabel#statusLabel {
+    font-size: 14px;
+    color: #668899;
+}
+
+QComboBox, QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #b2d8cc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #1a1a2e;
+}
+
+QTabBar::tab {
+    background-color: #f5f7fa;
+    color: #668899;
+    padding: 8px 16px;
+    border-bottom: 2px solid transparent;
+}
+
+QTabBar::tab:selected {
+    color: #0f7a5e;
+    border-bottom: 2px solid #0f7a5e;
+}
+
+QGroupBox {
+    border: 1px solid #dde3ed;
+    border-radius: 8px;
+    margin-top: 12px;
+    padding-top: 8px;
+    color: #668899;
+    font-weight: 600;
+}
+
+QScrollBar:vertical {
+    background: #f5f7fa;
+    width: 8px;
+}
+
+QScrollBar::handle:vertical {
+    background: #b2d8cc;
+    border-radius: 4px;
+}
+
+QStatusBar {
+    background-color: #ffffff;
+    color: #668899;
+    border-top: 1px solid #dde3ed;
+}

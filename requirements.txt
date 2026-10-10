@@ -1,0 +1,11 @@
+# G-Mirror Production Dependencies
+# Compatible with Windows 10/11 x64 (Python 3.10+)
+
+PySide6>=6.6.0
+zeroconf>=0.130.0
+av>=11.0.0
+sounddevice>=0.4.6
+cryptography>=41.0.0
+Pillow>=10.0.0
+numpy>=1.24.0
+aiohttp>=3.9.0

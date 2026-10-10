@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# C extensions
+*.so
+*.dylib
+
+# Distribution / packaging / builds
+build/
+dist/
+*.egg-info/
+*.egg
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# PyInstaller
+*.manifest
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Logs & Diagnostics
+*.log
+logs/
+
+# User outputs & recordings
+recordings/
+screenshots/
+*.mp4
+*.mkv
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Windows system files & shortcuts
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS system files
+.DS_Store
